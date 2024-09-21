@@ -1,5 +1,6 @@
 ## Olá! Eu sou o Rhuan Abbud 👨🏻‍💻
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rhuanabbud/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rhuanabbud)
 
 ## Tecnologias que eu uso no meu dia
