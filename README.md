@@ -12,3 +12,5 @@
   <img align="center" alt="css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img align="center" alt="spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
 </div><br/>
+
+![Rhuan GitHub stats](https://github-readme-stats.vercel.app/api?username=rhuanabbud&theme=one_dark_pro&show_icons=true)
