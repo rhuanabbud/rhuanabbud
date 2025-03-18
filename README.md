@@ -13,4 +13,4 @@
   <img align="center" alt="IntelliJ" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />  
 </div><br/>
 
-![Rhuan GitHub stats](https://github-readme-stats.vercel.app/api?username=rhuanabbud&theme=one_dark_pro&show_icons=true)
+![Rhuan GitHub stats](https://github-readme-stats.vercel.app/api?username=rhuanabbud)
