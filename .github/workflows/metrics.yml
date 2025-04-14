@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{ cron: "0 * * * *" }] # Atualiza a cada hora
+  schedule: [{ cron: "0 * * * *" }]  # Atualiza a cada hora
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,26 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # Base sections
           base: "header, activity, community, repositories"
           repositories_affiliations: "owner, collaborator, organization_member"
-          plugin_lines: yes
-          plugin_traffic: yes
+
+          # Plugins visuais
+          plugin_lines: yes                         # Linhas de código por linguagem
+          plugin_traffic: yes                       # Tráfego de repositório
+          plugin_languages: yes                     # Linguagens mais usadas
+          plugin_languages.threshold: 0%            # Mostrar tudo, mesmo as menos usadas
+          plugin_languages.colors: github           # Usa esquema de cores do GitHub
+          plugin_languages.indepth: yes             # Contagem por arquivo real
+          plugin_languages.limit: 10                # Limite de linguagens exibidas
+
+          plugin_stargazers: yes                    # Quem deu estrela nos seus repositórios
+          plugin_repositories: yes                  # Repositórios populares
+          plugin_repositories.featured: 0           # 0 = mostra os mais populares automaticamente
+
+          plugin_followup: yes                      # Atividade recente (commits, PRs, issues)
+          plugin_habits: yes                        # Hábitos de programação
+          plugin_habits.charts: yes                 # Mostra gráfico
+
+          plugin_notable: yes                       # Repositórios notáveis
